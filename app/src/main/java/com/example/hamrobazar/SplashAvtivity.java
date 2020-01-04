@@ -12,12 +12,13 @@ public class SplashAvtivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_avtivity);
+        getSupportActionBar().hide();
 
         Handler handler = new Handler();
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent = new Intent(SplashAvtivity.this, FirstAgreement.class);
+                Intent intent = new Intent(SplashAvtivity.this, AgreementActivity.class);
                 startActivity(intent);
                 finish();
             }
