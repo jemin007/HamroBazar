@@ -9,22 +9,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".FirstAgreement" android:parentActivityName=".AgreementActivity">
-
-        </activity>
+        <activity android:name=".ThirdAgreement"
+            android:parentActivityName=".AgreementActivity"></activity>
+        <activity
+            android:name=".SecondAgreement"
+            android:parentActivityName=".AgreementActivity" />
+        <activity
+            android:name=".FirstAgreement"
+            android:parentActivityName=".AgreementActivity" />
         <activity android:name=".AgreementActivity" />
         <activity android:name=".RegisterActivity" />
         <activity android:name=".Dashboard" />
-        <activity android:name=".SplashAvtivity" >
+        <activity android:name=".SplashAvtivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity">
-
-        </activity>
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
