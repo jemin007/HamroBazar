@@ -33,5 +33,21 @@ public class AgreementActivity extends AppCompatActivity {
 
             }
         });
+
+        checkTwo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent secondAgreement = new Intent(AgreementActivity.this,SecondAgreement.class);
+                startActivity(secondAgreement);
+            }
+        });
+
+        checkThree.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent thirdAgreement = new Intent(AgreementActivity.this, ThirdAgreement.class);
+                startActivity(thirdAgreement);
+            }
+        });
     }
 }
