@@ -17,7 +17,7 @@ public class SplashAvtivity extends AppCompatActivity {
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent = new Intent(SplashAvtivity.this, Dashboard.class);
+                Intent intent = new Intent(SplashAvtivity.this, FirstAgreement.class);
                 startActivity(intent);
                 finish();
             }

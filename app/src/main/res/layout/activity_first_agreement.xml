@@ -8,5 +8,36 @@
     android:orientation="vertical"
     tools:context=".FirstAgreement">
 
+    <ScrollView
+        android:id="@+id/scroll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Terms of Use"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18sp"
+                android:layout_marginEnd="18sp"
+                android:layout_marginTop="18sp"
+                android:text="@string/first_agreement"/>
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
 
 </LinearLayout>
